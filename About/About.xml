@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>一些共产主义文化图标（本地修复版）</name>
+	<author>SAM271（原作者）；本地分叉维护；GNH 本地分支维护：大赢经直插白皮赢道</author>
+	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=3152810059</url>
+	<packageId>S271.SCII.local</packageId>
+	<modVersion>1.6.1</modVersion>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+		<li>1.6</li>
+		<li>1.7</li>
+	</supportedVersions>
+	<description>【本地分叉版】基于工坊原版（ID 3152810059，作者 SAM271）制作，原版长期未更新，此分叉用于固化本地修复，避免被工坊更新覆盖。
+
+本分叉的修复与改动：
+1. 修正 Ideoligion_SOV 重名笔误：第二个图标的 defName 误写为 Ideoligion_SOV（其 iconPath 实为 SOV1），导致游戏报 "has multiple IdeoIconDefs named Ideoligion_SOV. Skipping." 并丢失该图标。现改为 Ideoligion_SOV1，33 个图标全部可用。
+2. 补充 1.6 版本目录与版本标注（原版仅标 1.4/1.5）。
+3. 同步修正 1.4/1.5 历史目录中的同一处笔误。
+
+原模组内容与贴图版权归原作者 SAM271 所有。
+	</description>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+	</loadAfter>
+</ModMetaData>
